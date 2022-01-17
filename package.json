@@ -1,0 +1,31 @@
+{
+  "name": "sistema-estoque",
+  "version": "1.0.0",
+  "description": "sistema de estoque para produtos de loja",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre-prado/sistema-estoque.git"
+  },
+  "author": "Andre Prado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andre-prado/sistema-estoque/issues"
+  },
+  "homepage": "https://github.com/andre-prado/sistema-estoque#readme",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mysql2": "^2.3.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.13.0",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
